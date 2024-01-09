@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #000055, #550000);
+}
+
+form {
+    position: relative;
+    background: #ffffff50;
+    border-top: .3px solid #ffffff50;
+    border-left: .3px solid #ffffff50;
+    border-bottom: .3px solid #00000050;
+    border-right: .3px solid #00000050;
+    border-radius: 10px;
+    height: 500px;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.div {
+    margin: 10px 0;
+    position: relative;
+    height: 100px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.6em;
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+input {
+    padding: 15px;
+    width: 350px;
+    height: 8vh;
+    font-size: 1.2em;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 3px solid #00000090;
+    border-radius: 5px;
+    color: #fff;
+    transition: .3s;
+}
+
+input:focus {
+    box-shadow: 0 0 0 7.5px #00000030;
+}
+
+#chatId::-webkit-inner-spin-button,
+#chatId::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#chatId[type="number"] {
+    -webkit-appearance: textfield;
+}
+
+button {
+    position: absolute;
+    top: 84%;
+    border-radius: 5px;
+    border: none;
+    background: #005fb7af;
+    border-top: .2px solid #ffffff50;
+    border-left: .2px solid #ffffff50;
+    color: #fff;
+    height: 60px;
+    font-size: 1.4em;
+    width: 60%;
+    outline: none;
+    transition: .2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #0059ac96;
+}
